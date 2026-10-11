@@ -890,23 +890,30 @@ HTML_PAGE = """<!DOCTYPE html>
         // =====================================================================
         function renderMarkdown(text) {
             if (!text) return '';
-            let html = escapeHtml(text);
+            var html = escapeHtml(text);
             html = html.replace(/^### (.+)$/gm, '<h3>$1</h3>');
             html = html.replace(/^## (.+)$/gm, '<h2>$1</h2>');
             html = html.replace(/^# (.+)$/gm, '<h1>$1</h1>');
             html = html.replace(/^&gt; (.+)$/gm, '<blockquote>$1</blockquote>');
             html = html.replace(/^---$/gm, '<hr/>');
-            // Unordered list items
-            html = html.replace(/^[*\-] (.+)$/gm, '<li>$1</li>');
-            // Wrap consecutive <li> in <ul>
-            html = html.replace(/(<li>[\s\S]*?<\/li>)(\s*<li>)/g, '$1$2');
-            html = html.replace(/(<li>)/g, (m, p, offset, str) => {
-                const before = str.slice(0, offset);
-                return before.endsWith('</li>') || before.endsWith('<ul>') ? m : '<ul>' + m;
-            });
-            html = html.replace(/(<\/li>)(?!\s*<li>)/g, '$1</ul>');
-            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
+            html = html.replace(/^[*-] (.+)$/gm, '<li>$1</li>');
+            // Boc <li> vao <ul>: dung String.split thay vi regex phuc tap
+            var lines = html.split('<br/>');
+            var out = [], inList = false;
+            for (var i = 0; i < lines.length; i++) {
+                var line = lines[i];
+                if (line.indexOf('<li>') === 0) {
+                    if (!inList) { out.push('<ul>'); inList = true; }
+                    out.push(line);
+                } else {
+                    if (inList) { out.push('</ul>'); inList = false; }
+                    out.push(line);
+                }
+            }
+            if (inList) out.push('</ul>');
+            html = out.join('<br/>');
+            html = html.replace(/[*][*](.+?)[*][*]/g, '<strong>$1</strong>');
+            html = html.replace(/[*](.+?)[*]/g, '<em>$1</em>');
             html = html.replace(/`(.+?)`/g, '<code>$1</code>');
             html = html.replace(/\n/g, '<br/>');
             return html;
