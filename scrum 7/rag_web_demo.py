@@ -777,30 +777,44 @@ HTML_PAGE = """<!DOCTYPE html>
 
         let catalogDocuments = [];
 
-        window.onload = function() {
-            loadCatalogInfo();
-        };
+        document.addEventListener('DOMContentLoaded', function() { loadCatalogInfo(); });
+        window.addEventListener('load', function() { loadCatalogInfo(); });
+        setTimeout(function() { loadCatalogInfo(); }, 100);
 
-        function loadCatalogInfo() {
+        function loadCatalogInfo(retry) {
+            retry = retry || 0;
             fetch('/api/info')
-                .then(r => r.json())
-                .then(data => {
-                    catalogDocuments = data.documents || [];
-                    document.getElementById('statDocsCount').innerText = data.total_documents || 0;
-                    document.getElementById('statChunksCount').innerText = data.total_chunks || 0;
-                    let totalP = 0;
-                    catalogDocuments.forEach(d => totalP += (d.indexed_pages || 0));
-                    document.getElementById('statPagesCount').innerText = totalP;
-                    const select = document.getElementById('docScopeSelect');
-                    select.innerHTML = '<option value="">[T\u1ea5t c\u1ea3 kho t\u00e0i li\u1ec7u DeDocu] (T\u00ecm \u0111a m\u00f4n h\u1ecdc)</option>';
-                    catalogDocuments.forEach(d => {
-                        const opt = document.createElement('option');
-                        opt.value = d.document_id;
-                        opt.innerText = `[${d.course_name}] ${d.title}`;
-                        select.appendChild(opt);
-                    });
+                .then(function(r) {
+                    if (!r.ok) throw new Error('HTTP ' + r.status);
+                    return r.json();
                 })
-                .catch(err => console.error("L\u1ed7i t\u1ea3i danh m\u1ee5c:", err));
+                .then(function(data) {
+                    catalogDocuments = data.documents || [];
+                    var docCountEl = document.getElementById('statDocsCount');
+                    var chunkCountEl = document.getElementById('statChunksCount');
+                    var pageCountEl = document.getElementById('statPagesCount');
+                    if (docCountEl) docCountEl.innerText = data.total_documents || 0;
+                    if (chunkCountEl) chunkCountEl.innerText = data.total_chunks || 0;
+                    var totalP = 0;
+                    catalogDocuments.forEach(function(d) { totalP += (d.indexed_pages || 0); });
+                    if (pageCountEl) pageCountEl.innerText = totalP;
+                    var select = document.getElementById('docScopeSelect');
+                    if (select) {
+                        select.innerHTML = '<option value="">[Tất cả kho tài liệu DeDocu] (Tìm đa môn học)</option>';
+                        catalogDocuments.forEach(function(d) {
+                            var opt = document.createElement('option');
+                            opt.value = d.document_id;
+                            opt.innerText = '[' + d.course_name + '] ' + d.title;
+                            select.appendChild(opt);
+                        });
+                    }
+                })
+                .catch(function(err) {
+                    console.error('Lỗi tải danh mục:', err);
+                    if (retry < 5) {
+                        setTimeout(function() { loadCatalogInfo(retry + 1); }, 800);
+                    }
+                });
         }
 
         function onScopeChanged() {
@@ -915,7 +929,7 @@ HTML_PAGE = """<!DOCTYPE html>
             html = html.replace(/[*][*](.+?)[*][*]/g, '<strong>$1</strong>');
             html = html.replace(/[*](.+?)[*]/g, '<em>$1</em>');
             html = html.replace(/`(.+?)`/g, '<code>$1</code>');
-            html = html.replace(/\n/g, '<br/>');
+            html = html.replace(/\\r?\\n/g, '<br/>');
             return html;
         }
 
@@ -1131,9 +1145,35 @@ def find_free_port(start_port: int = 8088, max_tries: int = 10) -> int:
 
 def main():
     print("----------------------------------------------------------------------")
-    print("KHỚI ĐỘNG DEDOCU AI SCHOLAR - MULTI-DOC RAG & RECOMMENDER (SCRUM-7)")
+    print("KHOI DONG DEDOCU AI SCHOLAR - MULTI-DOC RAG & RECOMMENDER (SCRUM-7)")
     print("----------------------------------------------------------------------")
 
     engine.load_or_build_index(dataset_base, api_key=os.getenv("GEMINI_API_KEY"))
-    print(f">> Sẵn sàng: {len(engine.documents)} tài liệu giáo trình, {len(engine.chunks)} vector chunks.")
+    print(f">> San sang: {len(engine.documents)} tai lieu giao trinh, {len(engine.chunks)} vector chunks.")
 
+    # [TOI UU 6] Tu dong chon cong trong
+    port = find_free_port(8088)
+    server_address = ("127.0.0.1", port)
+
+    # [TOI UU 5] Dung ThreadingHTTPServer thay HTTPServer don luong
+    httpd = ThreadingHTTPServer(server_address, MultiDocRAGHandler)
+    url = f"http://localhost:{port}"
+
+    print(f">> May chu Web (ThreadingHTTPServer) dang chay tai: {url}")
+    if port != 8088:
+        print(f">> (Cong 8088 bi chiem, tu dong chuyen sang cong {port})")
+    print(">> Trinh duyet se tu dong mo. Nhan Ctrl + C de dung may chu.\n")
+
+    try:
+        webbrowser.open(url)
+    except Exception:
+        pass
+
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\n>> Da dung Web Server an toan.")
+
+
+if __name__ == "__main__":
+    main()
