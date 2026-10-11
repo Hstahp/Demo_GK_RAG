@@ -1,0 +1,22 @@
+﻿# Python bytecode - Python tu tao lai khi chay, khong can push
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Moi truong ao
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Bien moi truong (chua API Key - TUYET DOI KHONG push)
+.env
+*.env
