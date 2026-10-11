@@ -1,0 +1,850 @@
+{
+  "REAL-IT-001": {
+    "document_id": "REAL-IT-001",
+    "title": "Bài giảng Lập trình hướng đối tượng (Java & C++)",
+    "course_name": "Lập trình hướng đối tượng",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736208/academianet_docs/REAL-IT-001.pdf"
+  },
+  "REAL-IT-002": {
+    "document_id": "REAL-IT-002",
+    "title": "Tuyển tập Bài tập Kỹ thuật Lập trình Hướng đối tượng",
+    "course_name": "Lập trình hướng đối tượng",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736210/academianet_docs/REAL-IT-002.pdf"
+  },
+  "REAL-IT-003": {
+    "document_id": "REAL-IT-003",
+    "title": "Giáo trình Cơ sở An toàn Thông tin (Toàn phần 2018)",
+    "course_name": "An toàn thông tin",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736212/academianet_docs/REAL-IT-003.pdf"
+  },
+  "REAL-IT-004": {
+    "document_id": "REAL-IT-004",
+    "title": "Giáo trình An toàn và Bảo mật Hệ điều hành (Toàn phần 2017)",
+    "course_name": "Hệ điều hành",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736215/academianet_docs/REAL-IT-004.pdf"
+  },
+  "REAL-IT-005": {
+    "document_id": "REAL-IT-005",
+    "title": "Giáo trình Phân tích và Thiết kế Hệ thống Thông tin (Toàn phần 2013)",
+    "course_name": "Công nghệ phần mềm",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736218/academianet_docs/REAL-IT-005.pdf"
+  },
+  "REAL-IT-006": {
+    "document_id": "REAL-IT-006",
+    "title": "Giáo trình Quản lý Dự án Phần mềm (Toàn phần 2014)",
+    "course_name": "Công nghệ phần mềm",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736219/academianet_docs/REAL-IT-006.pdf"
+  },
+  "REAL-IT-007": {
+    "document_id": "REAL-IT-007",
+    "title": "Giáo trình Lập trình Mạng và Giao thức Truyền thông (Toàn phần 2013)",
+    "course_name": "Mạng máy tính",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736221/academianet_docs/REAL-IT-007.pdf"
+  },
+  "REAL-IT-008": {
+    "document_id": "REAL-IT-008",
+    "title": "Giáo trình Kỹ thuật Theo dõi và Giám sát An toàn Mạng (2015)",
+    "course_name": "Mạng máy tính",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736223/academianet_docs/REAL-IT-008.pdf"
+  },
+  "REAL-IT-009": {
+    "document_id": "REAL-IT-009",
+    "title": "Giáo trình An toàn Ứng dụng Web và Cơ sở Dữ liệu (Toàn phần 2017)",
+    "course_name": "Cơ sở dữ liệu",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736224/academianet_docs/REAL-IT-009.pdf"
+  },
+  "REAL-IT-010": {
+    "document_id": "REAL-IT-010",
+    "title": "Giáo trình Thiết bị Ngoại vi và Kỹ thuật Ghép nối Máy tính (2014)",
+    "course_name": "Kiến trúc máy tính",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736226/academianet_docs/REAL-IT-010.pdf"
+  },
+  "REAL-IT-011": {
+    "document_id": "REAL-IT-011",
+    "title": "Giáo trình Ứng dụng Công cụ Phân tích Dữ liệu (2017)",
+    "course_name": "Khoa học dữ liệu",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736228/academianet_docs/REAL-IT-011.pdf"
+  },
+  "REAL-IT-012": {
+    "document_id": "REAL-IT-012",
+    "title": "Giáo trình Tin học Cơ sở & Lập trình Nền tảng",
+    "course_name": "Tin học cơ sở",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736229/academianet_docs/REAL-IT-012.pdf"
+  },
+  "REAL-AI-001": {
+    "document_id": "REAL-AI-001",
+    "title": "Bài báo Khoa học Gốc: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al.)",
+    "course_name": "Xử lý ngôn ngữ tự nhiên & RAG Pipeline",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736230/academianet_docs/REAL-AI-001.pdf"
+  },
+  "REAL-AI-002": {
+    "document_id": "REAL-AI-002",
+    "title": "Chuyên khảo Toàn diện: Giới thiệu Thuật toán Multi-Armed Bandits trong Học máy (Aleksandrs Slivkins)",
+    "course_name": "Học máy & Học tăng cường",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736231/academianet_docs/REAL-AI-002.pdf"
+  },
+  "REAL-AI-003": {
+    "document_id": "REAL-AI-003",
+    "title": "Công trình Nền tảng Transformer: Attention Is All You Need (Vaswani et al.)",
+    "course_name": "Trí tuệ nhân tạo nâng cao",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736232/academianet_docs/REAL-AI-003.pdf"
+  },
+  "REAL-AI-004": {
+    "document_id": "REAL-AI-004",
+    "title": "Công trình Nền tảng BERT: Pre-training of Deep Bidirectional Transformers (Devlin et al.)",
+    "course_name": "Xử lý ngôn ngữ tự nhiên",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736233/academianet_docs/REAL-AI-004.pdf"
+  },
+  "REAL-AI-005": {
+    "document_id": "REAL-AI-005",
+    "title": "Báo cáo Kỹ thuật Mô hình Ngôn ngữ Lớn GPT-4 (OpenAI Technical Report)",
+    "course_name": "Mô hình ngôn ngữ lớn (LLM)",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736235/academianet_docs/REAL-AI-005.pdf"
+  },
+  "REAL-AI-006": {
+    "document_id": "REAL-AI-006",
+    "title": "Nghiên cứu Căn chỉnh Mô hình Ngôn ngữ theo Chỉ dẫn với Phản hồi Người dùng (InstructGPT / RLHF)",
+    "course_name": "Học tăng cường",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736236/academianet_docs/REAL-AI-006.pdf"
+  },
+  "REAL-AI-007": {
+    "document_id": "REAL-AI-007",
+    "title": "Công trình Thị giác Máy tính Nền tảng: Deep Residual Learning for Image Recognition (ResNet)",
+    "course_name": "Thị giác máy tính",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736237/academianet_docs/REAL-AI-007.pdf"
+  },
+  "REAL-AI-008": {
+    "document_id": "REAL-AI-008",
+    "title": "Thuật toán Tối ưu hóa Adam: A Method for Stochastic Optimization (Kingma & Ba)",
+    "course_name": "Học máy cơ sở",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736238/academianet_docs/REAL-AI-008.pdf"
+  },
+  "REAL-IT-024": {
+    "document_id": "REAL-IT-024",
+    "title": "Nghiên cứu Khoa học Mạng lưới và Lý thuyết Trò chơi trong Tạo lập Mạng Xã hội (Social Network Creation Games & Pairwise Stability)",
+    "course_name": "Khoa học dữ liệu & Phân tích mạng xã hội",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736239/academianet_docs/REAL-IT-024.pdf"
+  },
+  "REAL-IT-025": {
+    "document_id": "REAL-IT-025",
+    "title": "Chuyên khảo AI Nhận thức và Suy luận Ký hiệu Nơ-ron (Neural-Symbolic Cognitive AI)",
+    "course_name": "Trí tuệ nhân tạo nâng cao",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736239/academianet_docs/REAL-IT-025.pdf"
+  },
+  "REAL-IT-027": {
+    "document_id": "REAL-IT-027",
+    "title": "Chuyên khảo Khoa học Dữ liệu Mạng: Structure and Function of Complex Networks (M.E.J. Newman)",
+    "course_name": "Khoa học mạng & Phân tích đồ thị",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736240/academianet_docs/REAL-IT-027.pdf"
+  },
+  "REAL-IT-028": {
+    "document_id": "REAL-IT-028",
+    "title": "Chuyên khảo Khoa học Dữ liệu Tính toán Xã hội: Computational Social Science Survey",
+    "course_name": "Khoa học dữ liệu ứng dụng",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736241/academianet_docs/REAL-IT-028.pdf"
+  },
+  "REAL-IT-029": {
+    "document_id": "REAL-IT-029",
+    "title": "Chuyên khảo Khoa học Mạng Phức hợp: Statistical Mechanics of Complex Networks (Barabási)",
+    "course_name": "Khoa học mạng phức hợp",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736242/academianet_docs/REAL-IT-029.pdf"
+  },
+  "REAL-IT-030": {
+    "document_id": "REAL-IT-030",
+    "title": "Nghiên cứu Động lực Dữ liệu Lan truyền & Phân cực Mạng (Opinion Dynamics & Network Polarization)",
+    "course_name": "Phân tích dữ liệu mạng xã hội",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736243/academianet_docs/REAL-IT-030.pdf"
+  },
+  "REAL-IT-031": {
+    "document_id": "REAL-IT-031",
+    "title": "Chuyên khảo Khoa học Dữ liệu Lớn: Computational Social Science - Discovery & Prediction",
+    "course_name": "Khai phá dữ liệu lớn",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736244/academianet_docs/REAL-IT-031.pdf"
+  },
+  "REAL-IT-033": {
+    "document_id": "REAL-IT-033",
+    "title": "Chuyên khảo Học máy Sinh tin học: Genomic Sequence Modeling & Protein Structure (Transformers in Biology)",
+    "course_name": "Học máy chuyên sâu",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736245/academianet_docs/REAL-IT-033.pdf"
+  },
+  "REAL-IT-034": {
+    "document_id": "REAL-IT-034",
+    "title": "Chuyên khảo Học máy Phân tử: Machine Learning for Molecular Simulation & Chemistry",
+    "course_name": "Học máy chuyên sâu",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736246/academianet_docs/REAL-IT-034.pdf"
+  },
+  "REAL-IT-035": {
+    "document_id": "REAL-IT-035",
+    "title": "Chuyên khảo Mô hình MAD-X và Chuyển giao Tri thức Đa ngôn ngữ trong NLP (Multiple Adapters for Cross-lingual Transfer)",
+    "course_name": "Xử lý ngôn ngữ tự nhiên",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736247/academianet_docs/REAL-IT-035.pdf"
+  },
+  "REAL-IT-036": {
+    "document_id": "REAL-IT-036",
+    "title": "Chuyên khảo Xử lý Tín hiệu Âm thanh & Tiếng nói: Acoustic Phonetics & Speech Analysis",
+    "course_name": "Xử lý tín hiệu số & Tiếng nói",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736249/academianet_docs/REAL-IT-036.pdf"
+  },
+  "REAL-IT-038": {
+    "document_id": "REAL-IT-038",
+    "title": "Chuyên khảo Học máy Tài chính Định lượng: Machine Learning for Quantitative Finance (Survey)",
+    "course_name": "Khoa học dữ liệu tài chính",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736250/academianet_docs/REAL-IT-038.pdf"
+  },
+  "REAL-IT-039": {
+    "document_id": "REAL-IT-039",
+    "title": "Chuyên khảo Suy luận Nhân quả trong Khoa học Dữ liệu: Causal Inference & Econometric Estimation",
+    "course_name": "Khoa học dữ liệu nâng cao",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736251/academianet_docs/REAL-IT-039.pdf"
+  },
+  "REAL-PY-001": {
+    "document_id": "REAL-PY-001",
+    "title": "Giáo trình Nhập môn Lập trình Python (Think Python - How to Think Like a Computer Scientist)",
+    "course_name": "Nhập môn lập trình Python",
+    "faculty": "Công nghệ Thông tin",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736252/academianet_docs/REAL-PY-001.pdf"
+  },
+  "REAL-ECON-001": {
+    "document_id": "REAL-ECON-001",
+    "title": "Giáo trình Kinh tế Chính trị Mác - Lênin (Chuẩn Bộ GD&ĐT 2019)",
+    "course_name": "Kinh tế chính trị Mác - Lênin",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736255/academianet_docs/REAL-ECON-001.pdf"
+  },
+  "REAL-ECON-002": {
+    "document_id": "REAL-ECON-002",
+    "title": "Bài giảng Tài chính Tiền tệ & Hệ thống Ngân hàng (2019)",
+    "course_name": "Tài chính tiền tệ",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736257/academianet_docs/REAL-ECON-002.pdf"
+  },
+  "REAL-ECON-003": {
+    "document_id": "REAL-ECON-003",
+    "title": "Bài giảng Bán lẻ Trực tuyến & Thương mại Điện tử (2019)",
+    "course_name": "Thương mại điện tử",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736259/academianet_docs/REAL-ECON-003.pdf"
+  },
+  "REAL-ECON-004": {
+    "document_id": "REAL-ECON-004",
+    "title": "Giáo trình Kế toán Tài chính 1 (Toàn phần 2017)",
+    "course_name": "Kế toán tài chính",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736261/academianet_docs/REAL-ECON-004.pdf"
+  },
+  "REAL-ECON-005": {
+    "document_id": "REAL-ECON-005",
+    "title": "Giáo trình Kế toán Quản trị 1 (Toàn phần 2014)",
+    "course_name": "Kế toán quản trị",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736262/academianet_docs/REAL-ECON-005.pdf"
+  },
+  "REAL-ECON-006": {
+    "document_id": "REAL-ECON-006",
+    "title": "Bài giảng Kế toán Quản trị 2 & Lập Dự toán Ngân sách (2019)",
+    "course_name": "Kế toán quản trị",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736264/academianet_docs/REAL-ECON-006.pdf"
+  },
+  "REAL-ECON-007": {
+    "document_id": "REAL-ECON-007",
+    "title": "Giáo trình Nguyên lý Quản trị học (Principles of Management - 690 trang)",
+    "course_name": "Quản trị học căn bản",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736266/academianet_docs/REAL-ECON-007.pdf"
+  },
+  "REAL-ECON-008": {
+    "document_id": "REAL-ECON-008",
+    "title": "Giáo trình Kế toán Tài chính Quốc tế (Principles of Financial Accounting - 810 trang)",
+    "course_name": "Nguyên lý kế toán",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736267/academianet_docs/REAL-ECON-008.pdf"
+  },
+  "REAL-ECON-009": {
+    "document_id": "REAL-ECON-009",
+    "title": "Bài giảng Nguyên lý Thống kê Kinh tế (Toàn phần 2017)",
+    "course_name": "Nguyên lý thống kê kinh tế",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736268/academianet_docs/REAL-ECON-009.pdf"
+  },
+  "REAL-PHIL-001": {
+    "document_id": "REAL-PHIL-001",
+    "title": "Giáo trình Triết học Mác - Lênin (Chuẩn Bộ Giáo dục & Đào tạo 2019)",
+    "course_name": "Triết học Mác - Lênin",
+    "faculty": "Lý luận Chính trị & Xã hội",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736271/academianet_docs/REAL-PHIL-001.pdf"
+  },
+  "REAL-PHIL-002": {
+    "document_id": "REAL-PHIL-002",
+    "title": "Giáo trình Tư tưởng Hồ Chí Minh (Toàn phần 2016)",
+    "course_name": "Tư tưởng Hồ Chí Minh",
+    "faculty": "Lý luận Chính trị & Xã hội",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791735934/academianet_docs/REAL-PHIL-002.pdf"
+  },
+  "REAL-LAW-001": {
+    "document_id": "REAL-LAW-001",
+    "title": "Giáo trình Pháp luật đại cương (Toàn phần 2015)",
+    "course_name": "Pháp luật đại cương",
+    "faculty": "Pháp luật & Xã hội",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736274/academianet_docs/REAL-LAW-001.pdf"
+  },
+  "REAL-LAW-002": {
+    "document_id": "REAL-LAW-002",
+    "title": "Giáo trình Chủ nghĩa xã hội khoa học (Toàn phần 2019)",
+    "course_name": "Chủ nghĩa xã hội khoa học",
+    "faculty": "Lý luận Chính trị & Xã hội",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736276/academianet_docs/REAL-LAW-002.pdf"
+  },
+  "REAL-PHIL-003": {
+    "document_id": "REAL-PHIL-003",
+    "title": "Bài giảng Những nguyên lý cơ bản của chủ nghĩa Mác - Lênin (2016)",
+    "course_name": "Triết học Mác - Lênin",
+    "faculty": "Lý luận Chính trị & Xã hội",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736277/academianet_docs/REAL-PHIL-003.pdf"
+  },
+  "REAL-ENG-001": {
+    "document_id": "REAL-ENG-001",
+    "title": "Giáo trình Tiếng Anh Học phần 1 - Nền tảng Ngữ pháp & Giao tiếp (2013)",
+    "course_name": "Tiếng Anh đại học 1",
+    "faculty": "Ngoại ngữ",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736278/academianet_docs/REAL-ENG-001.pdf"
+  },
+  "REAL-ENG-002": {
+    "document_id": "REAL-ENG-002",
+    "title": "Bài giảng Môn học Tiếng Anh 1 (2009)",
+    "course_name": "Tiếng Anh đại học 1",
+    "faculty": "Ngoại ngữ",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736280/academianet_docs/REAL-ENG-002.pdf"
+  },
+  "REAL-ENG-003": {
+    "document_id": "REAL-ENG-003",
+    "title": "Giáo trình Tiếng Anh Học phần 3 - Giao tiếp & Thương mại (2013)",
+    "course_name": "Tiếng Anh đại học 3",
+    "faculty": "Ngoại ngữ",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736281/academianet_docs/REAL-ENG-003.pdf"
+  },
+  "REAL-ENG-004": {
+    "document_id": "REAL-ENG-004",
+    "title": "Giáo trình Tiếng Anh Học phần 4 - Tiếng Anh Chuyên ngành (2013)",
+    "course_name": "Tiếng Anh đại học 4",
+    "faculty": "Ngoại ngữ",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736282/academianet_docs/REAL-ENG-004.pdf"
+  },
+  "REAL-MATH-001": {
+    "document_id": "REAL-MATH-001",
+    "title": "Giáo trình Giải tích Hàm một biến số (Giải tích 1 - PTIT 2013)",
+    "course_name": "Giải tích 1",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736283/academianet_docs/REAL-MATH-001.pdf"
+  },
+  "REAL-MATH-002": {
+    "document_id": "REAL-MATH-002",
+    "title": "Giáo trình Giải tích 1 Toàn phần (Calculus Volume 1 - OpenStax 890 trang)",
+    "course_name": "Giải tích 1",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736284/academianet_docs/REAL-MATH-002.pdf"
+  },
+  "REAL-MATH-003": {
+    "document_id": "REAL-MATH-003",
+    "title": "Chuyên khảo Lý thuyết Độ đo và Tích phân Lebesgue (Terence Tao - Fields Medalist)",
+    "course_name": "Lý thuyết độ đo và tích phân",
+    "faculty": "Toán học",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736285/academianet_docs/REAL-MATH-003.pdf"
+  },
+  "REAL-MATH-004": {
+    "document_id": "REAL-MATH-004",
+    "title": "Giáo trình Xác suất và Thống kê Ứng dụng (Introductory Statistics - 720 trang)",
+    "course_name": "Xác suất thống kê",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736286/academianet_docs/REAL-MATH-004.pdf"
+  },
+  "REAL-MATH-005": {
+    "document_id": "REAL-MATH-005",
+    "title": "Giáo trình Xác suất Thống kê Thực nghiệm (Think Stats 2e - Allen Downey)",
+    "course_name": "Xác suất thống kê",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736287/academianet_docs/REAL-MATH-005.pdf"
+  },
+  "REAL-MATH-006": {
+    "document_id": "REAL-MATH-006",
+    "title": "Giáo trình Thống kê Bayes Ứng dụng (Think Bayes - Allen Downey)",
+    "course_name": "Thống kê Bayes",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736288/academianet_docs/REAL-MATH-006.pdf"
+  },
+  "REAL-MATH-007": {
+    "document_id": "REAL-MATH-007",
+    "title": "Chuyên khảo Tối ưu hóa Lồi và Độ phức tạp Thuật toán (Sébastien Bubeck - Princeton)",
+    "course_name": "Tối ưu hóa lồi",
+    "faculty": "Toán học",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736289/academianet_docs/REAL-MATH-007.pdf"
+  },
+  "REAL-MATH-008": {
+    "document_id": "REAL-MATH-008",
+    "title": "Chuyên khảo Lý thuyết Vận tải Tối ưu và Khoảng cách Wasserstein (Optimal Transport Primer)",
+    "course_name": "Vận tải tối ưu trong toán ứng dụng",
+    "faculty": "Toán học",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736289/academianet_docs/REAL-MATH-008.pdf"
+  },
+  "REAL-MATH-009": {
+    "document_id": "REAL-MATH-009",
+    "title": "Chuyên khảo Không gian Tiền Hilbert, Định thức Gram & Ứng dụng Hồi quy Tuyến tính (Quantum Electronic Structure Methods)",
+    "course_name": "Toán ứng dụng & Đại số tuyến tính nâng cao",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736290/academianet_docs/REAL-MATH-009.pdf"
+  },
+  "REAL-MATH-010": {
+    "document_id": "REAL-MATH-010",
+    "title": "Nghiên cứu Hệ động lực phi tuyến trơn từng mảnh và Lý thuyết phân nhánh (Piecewise-Smooth Dynamical Systems & Bifurcation Theory)",
+    "course_name": "Hệ động lực phi tuyến & Lý thuyết phân nhánh",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736291/academianet_docs/REAL-MATH-010.pdf"
+  },
+  "REAL-MATH-011": {
+    "document_id": "REAL-MATH-011",
+    "title": "Chuyên khảo Mạng lưới Phản ứng Hóa học và Thể tích Hỗn hợp trong Toán ứng dụng (Chemical Reaction Networks & Mixed Volumes)",
+    "course_name": "Toán ứng dụng & Hình học đại số tính toán",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736292/academianet_docs/REAL-MATH-011.pdf"
+  },
+  "REAL-MATH-012": {
+    "document_id": "REAL-MATH-012",
+    "title": "Nghiên cứu Đại số Tiền xạ ảnh và Lý thuyết Biểu diễn (Preprojective Algebras & Representation Theory)",
+    "course_name": "Đại số lý thuyết & Lý thuyết biểu diễn",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736292/academianet_docs/REAL-MATH-012.pdf"
+  },
+  "REAL-MATH-013": {
+    "document_id": "REAL-MATH-013",
+    "title": "Nghiên cứu Giải tích hàm, Lý thuyết khung và Toán tử tuyến tính trong Không gian Hilbert (Frame Theory & Operator Theory in Hilbert Spaces)",
+    "course_name": "Giải tích hàm & Lý thuyết toán tử",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736293/academianet_docs/REAL-MATH-013.pdf"
+  },
+  "REAL-PHYS-001": {
+    "document_id": "REAL-PHYS-001",
+    "title": "Giáo trình Vật lý Đại cương 1 và Thí nghiệm (Cơ - Nhiệt 2010)",
+    "course_name": "Vật lý đại cương 1",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736295/academianet_docs/REAL-PHYS-001.pdf"
+  },
+  "REAL-PHYS-002": {
+    "document_id": "REAL-PHYS-002",
+    "title": "Giáo trình Vật lý Đại cương 2 và Thí nghiệm (Điện - Từ - Quang học 2013)",
+    "course_name": "Vật lý đại cương 2",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736297/academianet_docs/REAL-PHYS-002.pdf"
+  },
+  "REAL-PHYS-003": {
+    "document_id": "REAL-PHYS-003",
+    "title": "Giáo trình Vật lý Đại cương 3 và Thí nghiệm (Quang học & Lượng tử 2013)",
+    "course_name": "Vật lý đại cương 3",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736299/academianet_docs/REAL-PHYS-003.pdf"
+  },
+  "REAL-PHYS-004": {
+    "document_id": "REAL-PHYS-004",
+    "title": "Nghiên cứu Động lực học Hạt tự hành và Vật lý Thống kê Vi mô (Active Brownian Particles & Statistical Physics)",
+    "course_name": "Vật lý thống kê & Động lực học vi mô",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736300/academianet_docs/REAL-PHYS-004.pdf"
+  },
+  "REAL-PHYS-005": {
+    "document_id": "REAL-PHYS-005",
+    "title": "Chuyên khảo Vũ trụ học: Phân tích Tính phi Gaussian của Trường Mật độ Vũ trụ trong Không gian Fourier (Cosmology & Cosmic Density Fields)",
+    "course_name": "Vật lý thiên văn & Vũ trụ học",
+    "faculty": "Toán & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736301/academianet_docs/REAL-PHYS-005.pdf"
+  },
+  "REAL-CHEM-001": {
+    "document_id": "REAL-CHEM-001",
+    "title": "Bài giảng Hóa Đại cương Tập 1 - Chương 1: Cấu tạo Nguyên tử (Thầy Nguyễn Văn Hiển)",
+    "course_name": "Hóa đại cương 1",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736302/academianet_docs/REAL-CHEM-001.pdf"
+  },
+  "REAL-CHEM-002": {
+    "document_id": "REAL-CHEM-002",
+    "title": "Bài giảng Hóa Đại cương Tập 1 - Chương 2: Bảng Hệ thống Tuần hoàn & Liên kết Hóa học",
+    "course_name": "Hóa đại cương 1",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736303/academianet_docs/REAL-CHEM-002.pdf"
+  },
+  "REAL-CHEM-003": {
+    "document_id": "REAL-CHEM-003",
+    "title": "Bài giảng Hóa Đại cương Tập 1 - Chương 3: Nhiệt Động học Hóa học & Biến thiên Enthalpy",
+    "course_name": "Hóa đại cương 1",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736304/academianet_docs/REAL-CHEM-003.pdf"
+  },
+  "REAL-CHEM-004": {
+    "document_id": "REAL-CHEM-004",
+    "title": "Bài giảng Hóa Đại cương Tập 1 - Chương 4: Động Hóa học & Cân bằng Hóa học",
+    "course_name": "Hóa đại cương 1",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736305/academianet_docs/REAL-CHEM-004.pdf"
+  },
+  "REAL-CHEM-005": {
+    "document_id": "REAL-CHEM-005",
+    "title": "Bài giảng Hóa Đại cương Tập 1 - Chương 5: Dung dịch & Cân bằng Pha",
+    "course_name": "Hóa đại cương 1",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736305/academianet_docs/REAL-CHEM-005.pdf"
+  },
+  "REAL-CHEM-006": {
+    "document_id": "REAL-CHEM-006",
+    "title": "Bài giảng Hóa Đại cương Tập 2 - Chương 1: Đại cương Hóa học Hữu cơ & Đồng phân",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736306/academianet_docs/REAL-CHEM-006.pdf"
+  },
+  "REAL-CHEM-007": {
+    "document_id": "REAL-CHEM-007",
+    "title": "Bài giảng Hóa Đại cương Tập 2 - Chương 2: Hydrocarbon No & Hydrocarbon Không No",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736307/academianet_docs/REAL-CHEM-007.pdf"
+  },
+  "REAL-CHEM-008": {
+    "document_id": "REAL-CHEM-008",
+    "title": "Bài giảng Hóa Đại cương Tập 2 - Chương 3: Hydrocarbon Thơm & Dẫn xuất Halogen",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736308/academianet_docs/REAL-CHEM-008.pdf"
+  },
+  "REAL-CHEM-009": {
+    "document_id": "REAL-CHEM-009",
+    "title": "Bài giảng Hóa Đại cương Tập 2 - Chương 4: Hợp chất Ancol - Phenol - Ete",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736308/academianet_docs/REAL-CHEM-009.pdf"
+  },
+  "REAL-CHEM-010": {
+    "document_id": "REAL-CHEM-010",
+    "title": "Bài giảng Hóa Đại cương Tập 2 - Chương 5: Axit Cacboxylic & Hợp chất Amin",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736309/academianet_docs/REAL-CHEM-010.pdf"
+  },
+  "REAL-CHEM-011": {
+    "document_id": "REAL-CHEM-011",
+    "title": "Tuyển tập Bài tập Hóa Đại cương Tập 2 (Kèm hướng dẫn giải chi tiết)",
+    "course_name": "Hóa đại cương 2",
+    "faculty": "Hóa học & Khoa học Tự nhiên",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736310/academianet_docs/REAL-CHEM-011.pdf"
+  },
+  "REAL-MED-001": {
+    "document_id": "REAL-MED-001",
+    "title": "Chuyên khảo Dịch tễ học: Mathematical and Epidemiological Models of Infectious Disease Spread",
+    "course_name": "Dịch tễ học đại cương",
+    "faculty": "Y tế Công cộng & Y Dược",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736310/academianet_docs/REAL-MED-001.pdf"
+  },
+  "REAL-MED-002": {
+    "document_id": "REAL-MED-002",
+    "title": "Chuyên khảo Mô hình hóa Toán học trong Động lực học Bệnh truyền nhiễm (SEIR Models)",
+    "course_name": "Mô hình hóa dịch bệnh",
+    "faculty": "Y sinh & Dịch tễ học",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736311/academianet_docs/REAL-MED-002.pdf"
+  },
+  "REAL-MED-003": {
+    "document_id": "REAL-MED-003",
+    "title": "Chuyên khảo Dược lý học: Mathematical Modeling of Pharmacokinetics & Pharmacodynamics (PK/PD)",
+    "course_name": "Dược lý học và dược động học",
+    "faculty": "Dược học",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736312/academianet_docs/REAL-MED-003.pdf"
+  },
+  "REAL-MED-004": {
+    "document_id": "REAL-MED-004",
+    "title": "Chuyên khảo Ung bướu học: Mathematical Modeling of Tumor Growth and Cancer Dynamics",
+    "course_name": "Sinh học ung thư và điều trị học",
+    "faculty": "Y học & Ung bướu",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736313/academianet_docs/REAL-MED-004.pdf"
+  },
+  "REAL-ECON-010": {
+    "document_id": "REAL-ECON-010",
+    "title": "Giáo trình Luật Kinh doanh (Toàn phần 2015)",
+    "course_name": "Luật kinh doanh",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736315/academianet_docs/REAL-ECON-010.pdf"
+  },
+  "REAL-ECON-011": {
+    "document_id": "REAL-ECON-011",
+    "title": "Giáo trình Nghiên cứu Marketing (Toàn phần 2013)",
+    "course_name": "Nghiên cứu marketing",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736316/academianet_docs/REAL-ECON-011.pdf"
+  },
+  "REAL-ECON-012": {
+    "document_id": "REAL-ECON-012",
+    "title": "Giáo trình Marketing qua Phương tiện Truyền thông Xã hội (2016)",
+    "course_name": "Social media marketing",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736317/academianet_docs/REAL-ECON-012.pdf"
+  },
+  "REAL-ECON-013": {
+    "document_id": "REAL-ECON-013",
+    "title": "Giáo trình Quản trị Thương hiệu Doanh nghiệp (Toàn phần 2013)",
+    "course_name": "Quản trị thương hiệu",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736318/academianet_docs/REAL-ECON-013.pdf"
+  },
+  "REAL-ECON-014": {
+    "document_id": "REAL-ECON-014",
+    "title": "Giáo trình Quản trị Marketing Doanh nghiệp (Toàn phần 2017)",
+    "course_name": "Quản trị marketing",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736320/academianet_docs/REAL-ECON-014.pdf"
+  },
+  "REAL-ECON-015": {
+    "document_id": "REAL-ECON-015",
+    "title": "Giáo trình Marketing bằng Công cụ Tìm kiếm (SEM & SEO 2016)",
+    "course_name": "Marketing bằng công cụ tìm kiếm",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736322/academianet_docs/REAL-ECON-015.pdf"
+  },
+  "REAL-ECON-016": {
+    "document_id": "REAL-ECON-016",
+    "title": "Giáo trình Quản trị Tài chính Doanh nghiệp (Toàn phần 2017)",
+    "course_name": "Quản trị tài chính doanh nghiệp",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736323/academianet_docs/REAL-ECON-016.pdf"
+  },
+  "REAL-ECON-017": {
+    "document_id": "REAL-ECON-017",
+    "title": "Giáo trình Phân tích Hoạt động Kinh doanh (Toàn phần 2016)",
+    "course_name": "Phân tích hoạt động kinh doanh",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736325/academianet_docs/REAL-ECON-017.pdf"
+  },
+  "REAL-ECON-018": {
+    "document_id": "REAL-ECON-018",
+    "title": "Giáo trình Quản trị Nhân lực Doanh nghiệp (Toàn phần 2013)",
+    "course_name": "Quản trị nhân lực",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736326/academianet_docs/REAL-ECON-018.pdf"
+  },
+  "REAL-ECON-019": {
+    "document_id": "REAL-ECON-019",
+    "title": "Bài giảng Tổ chức Sản xuất trong Doanh nghiệp (2018)",
+    "course_name": "Tổ chức sản xuất",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736327/academianet_docs/REAL-ECON-019.pdf"
+  },
+  "REAL-ECON-020": {
+    "document_id": "REAL-ECON-020",
+    "title": "Giáo trình Truyền thông Nội bộ trong Tổ chức (Toàn phần 2017)",
+    "course_name": "Truyền thông nội bộ",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736328/academianet_docs/REAL-ECON-020.pdf"
+  },
+  "REAL-ECON-021": {
+    "document_id": "REAL-ECON-021",
+    "title": "Giáo trình Thống kê Doanh nghiệp (Toàn phần 2017)",
+    "course_name": "Thống kê doanh nghiệp",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736330/academianet_docs/REAL-ECON-021.pdf"
+  },
+  "REAL-ECON-022": {
+    "document_id": "REAL-ECON-022",
+    "title": "Giáo trình Lập và Thẩm định Dự án Đầu tư (Toàn phần 2016)",
+    "course_name": "Lập và thẩm định dự án đầu tư",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736331/academianet_docs/REAL-ECON-022.pdf"
+  },
+  "REAL-ECON-023": {
+    "document_id": "REAL-ECON-023",
+    "title": "Bài giảng Thương mại Điện tử Căn bản (2019)",
+    "course_name": "Thương mại điện tử",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736332/academianet_docs/REAL-ECON-023.pdf"
+  },
+  "REAL-ECON-024": {
+    "document_id": "REAL-ECON-024",
+    "title": "Bài giảng Xây dựng Website Thương mại Điện tử (2018)",
+    "course_name": "Xây dựng website thương mại điện tử",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736336/academianet_docs/REAL-ECON-024.pdf"
+  },
+  "REAL-ECON-025": {
+    "document_id": "REAL-ECON-025",
+    "title": "Bài giảng Phân tích Thương mại Điện tử và An toàn Thông tin (2019)",
+    "course_name": "An toàn thông tin trong TMĐT",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736337/academianet_docs/REAL-ECON-025.pdf"
+  },
+  "REAL-ECON-026": {
+    "document_id": "REAL-ECON-026",
+    "title": "Giáo trình Kinh tế lượng (Toàn phần 2016)",
+    "course_name": "Kinh tế lượng",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736341/academianet_docs/REAL-ECON-026.pdf"
+  },
+  "REAL-ECON-027": {
+    "document_id": "REAL-ECON-027",
+    "title": "Giáo trình Kinh tế Vi mô 1 (Toàn phần 2013)",
+    "course_name": "Kinh tế vi mô 1",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736345/academianet_docs/REAL-ECON-027.pdf"
+  },
+  "REAL-ECON-028": {
+    "document_id": "REAL-ECON-028",
+    "title": "Bài giảng Khởi sự Kinh doanh và Phát triển Doanh nghiệp (2018)",
+    "course_name": "Khởi sự kinh doanh",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736374/academianet_docs/REAL-ECON-028.pdf"
+  },
+  "REAL-ECON-029": {
+    "document_id": "REAL-ECON-029",
+    "title": "Bài giảng Kiểm toán Tài chính và Báo cáo Tài chính (2018)",
+    "course_name": "Kiểm toán tài chính",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736376/academianet_docs/REAL-ECON-029.pdf"
+  },
+  "REAL-ECON-030": {
+    "document_id": "REAL-ECON-030",
+    "title": "Giáo trình Quản trị Kinh doanh Quốc tế (Toàn phần 2016)",
+    "course_name": "Quản trị kinh doanh quốc tế",
+    "faculty": "Kinh tế & Quản lý",
+    "total_pages": 150,
+    "cloudinary_url": "https://res.cloudinary.com/dyys4lbc7/raw/upload/v1791736377/academianet_docs/REAL-ECON-030.pdf"
+  }
+}

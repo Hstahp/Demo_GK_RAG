@@ -1,4 +1,4 @@
-﻿# Python bytecode - Python tu tao lai khi chay, khong can push
+# Python bytecode - Python tu tao lai khi chay, khong can push
 __pycache__/
 *.pyc
 *.pyo
@@ -17,6 +17,12 @@ env/
 .DS_Store
 Thumbs.db
 
-# Bien moi truong (chua API Key - TUYET DOI KHONG push)
+# Bien moi truong & API Keys (TUYET DOI KHONG push)
 .env
 *.env
+keyapigemini.txt
+*key*.txt
+!*key*.txt.example
+cloudinary_credentials.json
+*.secret
+*.key
