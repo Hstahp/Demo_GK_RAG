@@ -1,0 +1,38 @@
+sequenceDiagram
+    autonumber
+    actor Student as Sinh viên (Client UI)
+    participant Gateway as API Gateway (Next.js / Traefik)
+    participant ChatSvc as AI Chat Service (FastAPI / Go)
+    participant Redis as Redis Cache (Session & Latency)
+    participant VectorDB as PostgreSQL (pgvector)
+    participant Gemini as Google Gemini API (1.5 Flash)
+
+    Note over Student,Gemini: Luồng Hỏi Đáp Tài Liệu với AI Assistant (RAG Pipeline)
+
+    Student->>Gateway: POST /api/v1/ai/chat<br/>{question, document_id, session_id}
+    Gateway->>ChatSvc: Forward request kèm JWT Claims & User Permissions
+    
+    ChatSvc->>ChatSvc: Kiểm tra quyền xem tài liệu (ABAC Check)<br/>(VD: User chỉ xem được trang 1-3 nếu chưa Unlock)
+
+    ChatSvc->>Redis: Kiểm tra Cache câu hỏi tương tự (Semantic Query Cache)
+    alt Cache Hit (Đã có câu trả lời sẵn)
+        Redis-->>ChatSvc: Trả về Cached Answer & Sources
+        ChatSvc-->>Gateway: Response JSON
+        Gateway-->>Student: Hiển thị ngay kết quả (Latency < 50ms)
+    else Cache Miss (Cần phân tích mới)
+        ChatSvc->>Gemini: POST /v1beta/models/text-embedding-004:embedContent<br/>{text: question}
+        Gemini-->>ChatSvc: Trả về Question Vector (768 dimensions)
+
+        ChatSvc->>VectorDB: SELECT chunk_id, content, page_number<br/>FROM document_chunks<br/>WHERE document_id = $doc_id AND page_number <= $allowed_pages<br/>ORDER BY embedding <=> $vector LIMIT 4;
+        VectorDB-->>ChatSvc: Trả về Top 4 Chunks có Cosine Similarity cao nhất
+
+        ChatSvc->>ChatSvc: Xây dựng System Prompt + Context Chunks<br/>+ Cấu hình Structured Output JSON Schema
+
+        ChatSvc->>Gemini: POST /v1beta/models/gemini-1.5-flash:generateContent<br/>{contents, system_instruction, response_schema}
+        Gemini-->>ChatSvc: Trả về JSON {answer_markdown, sources_found, followup_questions}
+
+        ChatSvc->>Redis: Lưu Cache kết quả (TTL = 24h)
+        ChatSvc->>VectorDB: Lưu Message Log vào chat_history
+        ChatSvc-->>Gateway: Trả về HTTP 200 OK + Payload JSON
+        Gateway-->>Student: Render câu trả lời + Thẻ [Sources Found] (Click nhảy tới trang PDF)
+    end

@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StuDocu Academic RAG Chatbot API Specifications",
+  "version": "1.0.0",
+  "endpoints": {
+    "chat_query": {
+      "method": "POST",
+      "path": "/api/v1/ai/chat",
+      "description": "Gửi câu hỏi học thuật từ giao diện PDF Viewer hoặc Course Feed để nhận giải đáp kèm trích dẫn nguồn",
+      "request_schema": {
+        "type": "object",
+        "required": ["question", "document_id"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 1000,
+            "example": "Giải thích nguyên lý đóng gói (Encapsulation) trong lập trình Java kèm ví dụ."
+          },
+          "document_id": {
+            "type": "string",
+            "description": "Mã tài liệu đang đọc (nếu hỏi trong ngữ cảnh 1 tài liệu)",
+            "example": "REAL-IT-001"
+          },
+          "course_id": {
+            "type": "string",
+            "description": "Mã môn học để mở rộng tìm kiếm toàn môn (nếu người dùng chọn tìm rộng)",
+            "example": "CS101"
+          },
+          "session_id": {
+            "type": "string",
+            "format": "uuid",
+            "description": "Mã phiên hội thoại để duy trì ngữ cảnh nhiều lượt hỏi đáp",
+            "example": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d"
+          },
+          "stream": {
+            "type": "boolean",
+            "default": false,
+            "description": "Bật Server-Sent Events (SSE) để stream text câu trả lời theo thời gian thực"
+          }
+        }
+      },
+      "response_schema": {
+        "type": "object",
+        "required": ["success", "code", "data"],
+        "properties": {
+          "success": { "type": "boolean", "example": true },
+          "code": { "type": "integer", "example": 200 },
+          "message": { "type": "string", "example": "Query processed successfully" },
+          "data": {
+            "type": "object",
+            "required": ["session_id", "answer_markdown", "sources_found", "confidence_score"],
+            "properties": {
+              "session_id": { "type": "string", "example": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d" },
+              "answer_markdown": {
+                "type": "string",
+                "description": "Nội dung câu trả lời chuẩn định dạng Markdown, hỗ trợ công thức Toán học $...$ và Code blocks",
+                "example": "Nguyên lý **Đóng gói (Encapsulation)** trong Java là kỹ thuật gom nhóm các trường dữ liệu (attributes) và phương thức (methods) vào trong một lớp (class), đồng thời ẩn giấu các trạng thái bên trong của đối tượng thông qua từ khóa `private` và cung cấp các phương thức `getter/setter` để truy xuất an toàn."
+              },
+              "confidence_score": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0,
+                "example": 0.94
+              },
+              "sources_found": {
+                "type": "array",
+                "description": "Danh sách các nguồn trích dẫn từ tài liệu PDF để hiển thị thẻ 'Sources found' trên UI",
+                "items": {
+                  "type": "object",
+                  "required": ["document_id", "document_title", "page_number", "quote_snippet", "similarity_score"],
+                  "properties": {
+                    "document_id": { "type": "string", "example": "REAL-IT-001" },
+                    "document_title": { "type": "string", "example": "Bài giảng Lập trình hướng đối tượng (Java & C++)" },
+                    "page_number": { "type": "integer", "example": 24 },
+                    "quote_snippet": {
+                      "type": "string",
+                      "example": "Đóng gói: Che giấu dữ liệu bằng các thuộc tính private, cung cấp các phương thức public get/set để giao tiếp với bên ngoài..."
+                    },
+                    "similarity_score": { "type": "number", "example": 0.88 },
+                    "jump_url": {
+                      "type": "string",
+                      "example": "/viewer/REAL-IT-001?page=24"
+                    }
+                  }
+                }
+              },
+              "suggested_followup_questions": {
+                "type": "array",
+                "items": { "type": "string" },
+                "example": [
+                  "Sự khác nhau giữa Kế thừa và Đa hình là gì?",
+                  "Xem ví dụ mã nguồn minh họa cho lớp SinhVien ở trang 26"
+                ]
+              }
+            }
+          },
+          "timestamp": { "type": "string", "format": "date-time", "example": "2026-09-19T18:00:00Z" }
+        }
+      }
+    }
+  },
+  "gemini_enforced_schema": {
+    "type": "OBJECT",
+    "description": "Schema truyền trực tiếp vào tham số generationConfig.response_schema của Gemini API",
+    "properties": {
+      "answer_markdown": { "type": "STRING" },
+      "confidence_level": { "type": "STRING", "enum": ["HIGH", "MEDIUM", "LOW"] },
+      "sources_found": {
+        "type": "ARRAY",
+        "items": {
+          "type": "OBJECT",
+          "properties": {
+            "document_id": { "type": "STRING" },
+            "document_title": { "type": "STRING" },
+            "page_number": { "type": "INTEGER" },
+            "quote_snippet": { "type": "STRING" },
+            "relevance_score": { "type": "NUMBER" }
+          },
+          "required": ["document_id", "document_title", "page_number", "quote_snippet", "relevance_score"]
+        }
+      },
+      "suggested_followup_questions": {
+        "type": "ARRAY",
+        "items": { "type": "STRING" }
+      }
+    },
+    "required": ["answer_markdown", "confidence_level", "sources_found", "suggested_followup_questions"]
+  }
+}

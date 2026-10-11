@@ -1,0 +1,53 @@
+graph TB
+    subgraph CLIENT_LAYER ["Lớp Trình diễn (Presentation Layer - Next.js)"]
+        UI_VIEWER["PDF Viewer (PDF.js / Canvas)"]
+        UI_CHAT["StuDocu AI Chat Sidebar"]
+        UI_SOURCES["Thẻ Trích dẫn (Sources Found Cards)"]
+    end
+
+    subgraph GATEWAY_LAYER ["Lớp Cổng Điều phối (API Gateway / Auth)"]
+        GATEWAY["API Gateway (JWT Verification & Rate Limiting)"]
+    end
+
+    subgraph SERVICE_LAYER ["Lớp Dịch vụ Nghiệp vụ (Backend Core)"]
+        DOC_SVC["Document Service (Go)"]
+        AI_SVC["AI RAG Service (FastAPI / Python)"]
+        ASYNC_WORKER["Async Ingestion Worker (RabbitMQ Consumer)"]
+    end
+
+    subgraph STORAGE_LAYER ["Lớp Lưu trữ Phân tán & CSDL (Persistence Layer)"]
+        MINIO["MinIO / IPFS (Lưu file PDF gốc)"]
+        POSTGRES[("PostgreSQL 16")]
+        PGVECTOR["pgvector Extension (HNSW Index - 768 dims)"]
+        REDIS[("Redis Cache (Bandit State & Query Cache)")]
+    end
+
+    subgraph AI_FOUNDATION ["Lớp Mô hình AI Ngoại vi (Google AI)"]
+        GEMINI_EMBED["Gemini text-embedding-004"]
+        GEMINI_LLM["Gemini 1.5 Flash (Structured Outputs)"]
+    end
+
+    %% Client Interactions
+    UI_CHAT -->|1. Gửi câu hỏi| GATEWAY
+    GATEWAY -->|2. Route request| AI_SVC
+    UI_VIEWER -.->|Đồng bộ vị trí trang khi click thẻ| UI_SOURCES
+
+    %% AI Query Flow
+    AI_SVC -->|3. Tạo Embedding câu hỏi| GEMINI_EMBED
+    GEMINI_EMBED -->|4. Trả về vector 768d| AI_SVC
+    AI_SVC -->|5. Vector Cosine Search| PGVECTOR
+    POSTGRES --- PGVECTOR
+    PGVECTOR -->|6. Top-K Context Chunks| AI_SVC
+    AI_SVC -->|7. Prompt + Context + Schema| GEMINI_LLM
+    GEMINI_LLM -->|8. Structured JSON Response| AI_SVC
+    AI_SVC -->|9. Caching câu trả lời| REDIS
+    AI_SVC -->|10. Trả JSON về UI| GATEWAY
+    GATEWAY -->|11. Render tin nhắn & Sources| UI_CHAT
+    UI_CHAT --> UI_SOURCES
+
+    %% Ingestion Pipeline
+    DOC_SVC -->|Tải file lên| MINIO
+    DOC_SVC -->|Bắn sự kiện 'doc.uploaded'| ASYNC_WORKER
+    ASYNC_WORKER -->|Trích xuất Text & OCR| ASYNC_WORKER
+    ASYNC_WORKER -->|Tạo Embedding từng Chunk| GEMINI_EMBED
+    ASYNC_WORKER -->|Lưu Chunks & Vectors| PGVECTOR
